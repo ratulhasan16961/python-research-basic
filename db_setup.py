@@ -2,7 +2,6 @@ import sqlite3
 
 connection = sqlite3.connect('general_inventory.db')
 cursor = connection.cursor()
-
 cursor.execute('''
     CREATE TABLE IF NOT EXISTS products (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
