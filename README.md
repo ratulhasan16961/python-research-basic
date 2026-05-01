@@ -6,7 +6,8 @@ This project provides a complete system to manage business inventory using Pytho
 - **Database Management:** Uses SQLite3 for persistent data storage.
 - **Data Analysis:** Utilizes Pandas to calculate total stock quantity and average pricing per category.
 - **Data Visualization:** Generates bar charts using Matplotlib to visualize inventory stock levels.
-- **Visual Report![Current Inventory Graph](inventory_graph.png)
+- **Visual Report
+- ![Current Inventory Graph](inventory_graph.png)
 
 ## Project Structure & Usage:
 1. **db_setup.py**: Run this first to initialize the database and create the inventory table.
