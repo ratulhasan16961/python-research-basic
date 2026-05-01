@@ -1,18 +1,18 @@
 import sqlite3
-import pandas as pd
 
 connection = sqlite3.connect('general_inventory.db')
+cursor = connection.cursor()
 
-query = "SELECT * FROM products"
-df = pd.read_sql_query(query, connection)
+cursor.execute('''
+    CREATE TABLE IF NOT EXISTS products (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        name TEXT NOT NULL,
+        category TEXT NOT NULL,
+        price REAL NOT NULL,
+        stock_count INTEGER NOT NULL
+    )
+''')
 
-print("--- Data Table using Pandas ---")
-print(df)
-
-print(f"\nTotal items in stock: {df['stock_count'].sum()}")
-
-avg_price = df.groupby('category')['price'].mean()
-print("\nAverage Price per Category:")
-print(avg_price)
-
+connection.commit()
 connection.close()
+print("Database and table 'products' created successfully!")
