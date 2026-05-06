@@ -1,22 +1,22 @@
-# Inventory Management & Data Analysis Project
+# Ratul's Smart Inventory System v2.0 🚀
 
-This project provides a complete system to manage business inventory using Python and SQLite. It also includes data analysis and visualization features to track stock levels effectively.
+A professional Python-based inventory management application designed to track products for small businesses. This project features a robust SQLite database backend and a clean, user-friendly Graphical User Interface (GUI).
 
-## Features:
-- **Database Management:** Uses SQLite3 for persistent data storage.
-- **Data Analysis:** Utilizes Pandas to calculate total stock quantity and average pricing per category.
-- **Data Visualization:** Generates bar charts using Matplotlib to visualize inventory stock levels.
-- **Visual Report
-- ![Current Inventory Graph](inventory_graph.png)
+## ✨ Key Features
+- **Product Management**: Easily add new inventory items or delete existing ones with a single click.
+- **Live Search**: Instantly filter through products by Name or Category using the integrated search bar.
+- **Low Stock Alert**: Automatically notifies the user with a warning popup if any item's stock falls below 10 units.
+- **Export to CSV**: Export your entire database into a professional Excel-compatible CSV report.
+- **Real-time Dashboard**: A dynamic table view that stays synced with the database.
 
-## Project Structure & Usage:
-1. **db_setup.py**: Run this first to initialize the database and create the inventory table.
-2. **data_analysis.py**: Run this to fetch data from the database and view analytical results in the terminal.
-3. **data_visualization.py**: Run this to generate a visual bar chart [Inventory Analysiis Graph] of your current stock.
-** Installation
-This project requires Python and some external libraries. To install them, run:
-```bash
-pip install pandas matplotlib
----
-**Developed by:** Ratul Hasan
-*Software Engineering Student, Yunnan University*
+## 🛠 Tech Stack
+- **Language**: Python 3
+- **GUI Library**: Tkinter
+- **Database**: SQLite3
+- **Data Handling**: CSV Module
+
+## 🚀 How to Run
+1. Ensure you have Python 3 installed on your machine.
+2. Clone this repository:
+   ```bash
+   git clone [https://github.com/ratulhasan16961/python-research-basic.git](https://github.com/ratulhasan16961/python-research-basic.git)
