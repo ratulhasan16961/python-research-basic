@@ -1,4 +1,4 @@
-# Ratul's Smart Inventory System v2.0 🚀
+# Ratul's Smart Inventory System v3.0 🚀
 
 A professional Python-based inventory management application designed to track products for small businesses. This project features a robust SQLite database backend and a clean, user-friendly Graphical User Interface (GUI).
 
