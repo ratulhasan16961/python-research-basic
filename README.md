@@ -1,4 +1,4 @@
-# Ratul's Smart Inventory System v3.0 🚀
+# Ratul's Smart Inventory System v4.0 🚀
 
 A professional Python-based inventory management application designed to track products for small businesses. This project features a robust SQLite database backend and a clean, user-friendly Graphical User Interface (GUI).
 
@@ -8,6 +8,8 @@ A professional Python-based inventory management application designed to track p
 - **Low Stock Alert**: Automatically notifies the user with a warning popup if any item's stock falls below 10 units.
 - **Export to CSV**: Export your entire database into a professional Excel-compatible CSV report.
 - **Real-time Dashboard**: A dynamic table view that stays synced with the database.
+- **Secure Login:** Restricted access with encrypted-style password masking.
+- **Low Stock Alert:** Automatic pop-up notifications for items with low inventory.
 
 ## 🛠 Tech Stack
 - **Language**: Python 3
