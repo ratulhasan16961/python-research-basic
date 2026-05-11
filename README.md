@@ -2,7 +2,7 @@
 
 A professional Python-based inventory management application designed to track products for small businesses. This project features a robust SQLite database backend and a clean, user-friendly Graphical User Interface (GUI).
 
-**✨ Key Features**
+## ✨ Key Features
 
 📉 Real-time Dashboard: A dynamic table view that stays perfectly synced with the database for instant data access.
 
@@ -20,7 +20,7 @@ A professional Python-based inventory management application designed to track p
 
 🌗 Theme Toggle: Switch between Dark and Light modes for better visibility and a modern look.
 
-**🛠️ Tech Stack**
+## 🛠️ Tech Stack
 
 Language: Python 3
 
