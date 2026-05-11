@@ -1,4 +1,4 @@
-# Ratul's Smart Inventory System v5.0 🚀
+# Ratul's Smart Inventory System v6.0 🚀
 
 A professional Python-based inventory management application designed to track products for small businesses. This project features a robust SQLite database backend and a clean, user-friendly Graphical User Interface (GUI).
 
@@ -14,6 +14,8 @@ A professional Python-based inventory management application designed to track p
 - **Excel Export:** Download your entire inventory data in .xlsx format.
 - **Theme Toggle:** Switch between Dark and Light modes for better visibility.
 - **Secure Login:** Password-protected access to inventory data.
+- **PDF Billing System: Generate professional receipts for customers automatically. Each receipt includes a unique timestamp, product details and total amount.
+- **Supplier Management: A dedicated database to track and manage supplier information, ensuring you always know where your stock is coming from.
 
 ## 🛠 Tech Stack
 - **Language**: Python 3
@@ -25,4 +27,4 @@ A professional Python-based inventory management application designed to track p
 1. Ensure you have Python 3 installed on your machine.
 2. Clone this repository:
    ```bash
-   git clone [https://github.com/ratulhasan16961/smart-inventory-manager.git](https://github.com/ratulhasan16961/smart-inventory-manager.git)
+   git clone [https://github.com/ratulhasan16961/smart-inventory-manager.git]
