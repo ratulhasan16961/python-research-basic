@@ -25,4 +25,4 @@ A professional Python-based inventory management application designed to track p
 1. Ensure you have Python 3 installed on your machine.
 2. Clone this repository:
    ```bash
-   git clone [https://github.com/ratulhasan16961/python-research-basic.git](https://github.com/ratulhasan16961/python-research-basic.git)
+   git clone [https://github.com/ratulhasan16961/smart-inventory-manager.git](https://github.com/ratulhasan16961/smart-inventory-manager.git)
