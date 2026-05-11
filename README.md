@@ -2,29 +2,57 @@
 
 A professional Python-based inventory management application designed to track products for small businesses. This project features a robust SQLite database backend and a clean, user-friendly Graphical User Interface (GUI).
 
-## ✨ Key Features
-- **Product Management**: Easily add new inventory items or delete existing ones with a single click.
-- **Live Search**: Instantly filter through products by Name or Category using the integrated search bar.
-- **Low Stock Alert**: Automatically notifies the user with a warning popup if any item's stock falls below 10 units.
-- **Export to CSV**: Export your entire database into a professional Excel-compatible CSV report.
-- **Real-time Dashboard**: A dynamic table view that stays synced with the database.
-- **Secure Login:** Restricted access with encrypted-style password masking.
-- **Low Stock Alert:** Automatic pop-up notifications for items with low inventory.
-- **Analysis Dashboard:** Visual bar charts for stock level comparison.
-- **Excel Export:** Download your entire inventory data in .xlsx format.
-- **Theme Toggle:** Switch between Dark and Light modes for better visibility.
-- **Secure Login:** Password-protected access to inventory data.
-- **PDF Billing System: Generate professional receipts for customers automatically. Each receipt includes a unique timestamp, product details and total amount.
-- **Supplier Management: A dedicated database to track and manage supplier information, ensuring you always know where your stock is coming from.
+**✨ Key Features**
 
-## 🛠 Tech Stack
-- **Language**: Python 3
-- **GUI Library**: Tkinter
-- **Database**: SQLite3
-- **Data Handling**: CSV Module
+📉 Real-time Dashboard: A dynamic table view that stays perfectly synced with the database for instant data access.
+
+🔐 Secure Login: Restricted access with password-protected entry to keep your business data safe.
+
+⚠️ Low Stock Alert: Automatic pop-up notifications for items with low inventory to prevent stock-outs.
+
+📊 Analysis Dashboard: Visual bar charts for stock level comparison and quick decision-making.
+
+🧾 PDF Billing System: Generate professional receipts for customers automatically with date and total amount.
+
+🚚 Supplier Management: A dedicated database to track and manage supplier information and contacts.
+
+📂 Excel Export: Download your entire inventory data in .xlsx format for reporting and offline use.
+
+🌗 Theme Toggle: Switch between Dark and Light modes for better visibility and a modern look.
+
+**🛠️ Tech Stack**
+
+Language: Python 3
+
+GUI Library: Tkinter
+
+Database: SQLite3
+
+Visualization: Matplotlib
+
+PDF Engine: ReportLab
 
 ## 🚀 How to Run
-1. Ensure you have Python 3 installed on your machine.
-2. Clone this repository:
-   ```bash
-   git clone [https://github.com/ratulhasan16961/smart-inventory-manager.git]
+
+Follow these steps to get the project up and running on your local machine:
+
+### 1. Prerequisites
+Make sure you have **Python 3** installed. You can check it by running:
+`python3 --version`
+
+### 2. Install Dependencies
+Run the following command in your terminal:
+`pip3 install pandas matplotlib reportlab`
+
+### 3. Clone the Repository
+Clone this project to your local machine:
+`git clone https://github.com/ratulhasan16961/smart-inventory-manager.git`
+
+### 4. Navigate and Run
+Go to the project folder and run the application:
+`cd smart-inventory-manager`
+`python3 inventory_app.py`
+
+### 🔐 Default Credentials
+* **Username:** admin
+* **Password:** 1234
